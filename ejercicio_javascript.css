@@ -1,0 +1,33 @@
+h1{
+    font-family: 'quicksand', sans-serif;
+    color: aliceblue;
+    margin: 2%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+nav{
+    text-align: center;
+}
+
+ul li{  
+    display: inline-block;
+    list-style-type: none;
+    padding: inherit;
+    text-align: auto;
+}
+
+.ejercicios{
+    margin: 2%;
+}
+
+a{
+    font-family:monospace;
+}
+
