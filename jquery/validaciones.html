@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio validaciones</title>
+    <script src="jquery/jquery-3.2.1.js"></script>
+    <script src="jquery-plugin/dist/jquery.validate.js"></script>
+    <script src="jquery-plugin/dist/additional-methods.js"></script>
+    <script src="jquery-plugin/dist/localization/messages_es.js"></script>
+    <script src="validaciones.js"></script>
+</head>
+
+<body>
+   
+    <form id="form">Login
+        <fieldset>
+        <legend>Introduce tu usuario y contraseña</legend>
+        <input type="text" id="usuario" name="usuario" value="" placeholder="...Aquí tu usuario" required/>
+        <input type="password" id="password" name="current-password" value="" placeholder="...Aquí tu contraseña" required/>
+        <input type="submit" id="submit" name="submit"/>
+        </fieldset>
+    </form>
+    
+    <form id="form2">FORMULARIO 2
+        <fieldset>
+        <legend>Introduce tu usuario y contraseña</legend>
+        <input type="text" id="nombre" name="nombre" value="" placeholder="nombre" required/>
+        <input type="email" id="email" name="email" value="" placeholder="email" required/>
+        <input type="email" id="email2" name="email2" value="" placeholder="Repita su email" required/>
+        <input type="password" id="pass" name="current-password" value="" placeholder="contraseña" required/>
+        <input type="password" id="pass2" name="repeat-password" value="" placeholder="Repita su contraseña" required/>
+        <label for="aceptar">Acepta las condiciones del servicio</label>
+        <input type="checkbox" id="aceptar" name="condiciones_servicio" value="true" required>
+        <input type="submit" id="enviar" name="submit"/>
+        </fieldset>
+    </form>
+</body>
+</html>
