@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <style>
+        header{
+            font-family: fantasy;
+            color: cadetblue;
+           
+        }
+        .caja{
+            background-color: tomato;
+            width: 30%;
+            float: left;         
+            border: solid 3px white;
+        }
+        
+        #contenedor{
+            opacity: 0.5;
+        }
+        .over{
+            overflow: hidden;
+            margin-top: 5%;
+        }
+        h3{
+            text-align: center;
+            padding: 1%;
+        }
+    
+    </style>
+    <script src="drag-and-drop.js"></script>
+</head>
+
+<body>
+       
+    <header>Drag & Drop</header>
+  
+    
+    <div class="over" id="origen">
+        <div id="c1" class="caja" draggable="true">
+            <h3>¡Arrástrame!</h3>
+        </div>
+        <div id="c2" class="caja">
+            <h3>Pasa por aquí</h3>
+        </div>
+        <div id="contenedor" class="caja">
+            <h3>¡Cámbiame!</h3>
+        </div>
+    </div>
+   
+
+</body>
+</html>

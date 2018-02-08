@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba CSS</title>
+    <style>
+        header{
+            font-family: fantasy;
+            color: cadetblue;
+           
+        }
+        #saludo h2{
+            color: white;
+            text-align: center;
+            padding-top: 1%;
+        }
+        #saludo{
+            background-image: url(imagenes/css/happy.jpg);
+            background-repeat:  no-repeat;
+            height: 301px;
+            width: 453px;
+            margin-left: 10%;
+        }
+     
+        .caja{
+            background-color: cadetblue;
+            width: 30%;
+            float: left;         
+            border: solid 3px white;
+        }
+        
+        .contenedor{
+            background-color: tomato;
+            width: 32%;
+            opacity: 0.5;
+            margin-left: 30%;
+            border: solid 3px white;
+        }
+        .over{
+            overflow: hidden;
+            margin-top: 5%;
+        }
+        h3{
+            text-align: center;
+            padding: 1%;
+        }
+    
+    </style>
+    <script src="prueba.js"></script>
+</head>
+
+<body>
+       
+    <header>ESTO ES UNA PRUEBA DE CSS</header>
+    <div id="saludo">
+        <h2>¡HOLA!</h2>
+    </div>
+    
+    <div class="over" id="origen">
+        <div id="c1" class="caja" draggable="true">
+        <h3>Izquierda</h3>
+        </div>
+        <div id="c2" class="caja" draggable="true">
+        <h3>Centro</h3>
+        </div>
+        <div id="c3" class="caja" draggable="true">
+        <h3>Derecha</h3>
+        </div>
+    </div>
+    <div class="over">
+        <div id="contenedor" class="contenedor">
+        <h3>Arrastra aquí</h3>
+        </div>
+    </div> 
+
+</body>
+</html>

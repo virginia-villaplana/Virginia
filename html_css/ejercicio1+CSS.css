@@ -1,0 +1,113 @@
+.tituloh4{
+    display: inline-block
+}
+        
+.navegacion{
+    overflow: hidden;
+    display: block;float: right;
+    font-size: 1.3em;
+}
+
+.navegacion li{
+    margin-right: 10px;
+}
+
+#logo h1{
+    margin-bottom: 0px;
+    margin-top: 43px;
+    margin-left: 10px;
+}
+
+#logo{
+    float: left
+}
+
+.fondo{
+    background-image: url(imagenes/img/fond_jaune.png);
+    width: 90%;
+    margin: 0 auto;
+}
+
+#banner{
+    background: url(imagenes/img/sanfrancisco.jpg) no-repeat 0 0;
+    height: 219px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+#seearticle{
+    float: right;
+    /*CSSRBUTTONGENERATOR*/
+
+}
+
+#comentario_foto{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 14px 16px;
+    position: relative;
+    top: 170px;
+    
+
+
+}
+
+/*Menu-Navegador*/
+
+.home{
+    display: inline-block
+}
+.blog{
+    display: inline-block
+}
+.resume{
+    display: inline-block
+}
+.contact{
+    display: inline-block
+}       
+
+.pinza{
+    float: left;
+}
+
+
+
+.over{
+    overflow: hidden
+}
+
+article,p{
+    text-align: justify;
+}
+
+section article{
+    float: left;
+}
+section aside{
+    float: left;
+    width: 30%;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.flecha{
+    text-align: center;
+}
+
+footer div{
+    width: 30%;
+    float: left;
+}
+
+#leftlist, #rightlist{
+    float: left;
+}
+
+
+

@@ -1,0 +1,20 @@
+/*Queremos que father tenga una posición relativa , se muestre como un bloque en línea y tenga unas dimensiones de 400 largo x 500 alto px. Asimismo queremos que el spam se muestre flotando, y tenga unas dimensiones de 30x30 px, con una imagen de fondo "imgs/a.jpg". Genera el CSS:*/
+
+.father{
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+span{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url(imgs/a.jpg);
+}
+
+
+
+
