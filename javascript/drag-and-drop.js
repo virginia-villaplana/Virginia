@@ -55,13 +55,7 @@ function soltar(event){
 function init (){
     console.log ("Dom cargado");
 
-   /* MÉTODO CORTO - DA ERROR!
-   var cajasOrigen=document.querySelectorAll("#origen");
-    for (var item of cajasOrigen){
-        item.addEventListener("dragstart", comenzar);
-        }
-    */
-    
+  
     
 /* MÉTODO LARGO*/
 
